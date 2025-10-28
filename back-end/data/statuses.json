@@ -1,0 +1,17 @@
+{
+    "records": [ 
+         {
+             "id": 1,
+             "query": "INSERT INTO Statuses (OrderStatus) VALUES ('In Progress')"
+         },
+         {
+             "id": 2,
+             "query": "INSERT INTO Statuses (OrderStatus) VALUES ('Ordered')"
+         },
+         {
+            "id": 3,
+            "query": "INSERT INTO Statuses (OrderStatus) VALUES ('Completed')"
+        }
+     ]
+ 
+ }

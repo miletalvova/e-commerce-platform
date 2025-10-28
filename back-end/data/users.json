@@ -1,0 +1,15 @@
+{
+    "records": [ 
+        {
+            "id": 1,
+            "FirstName": "Admin",
+            "LastName": "Support",
+            "Username": "Admin",
+            "Email": "admin@noroff.no",
+            "Password": "P@ssword2023",
+            "Address": "Online",
+            "Phone": "911"
+          }
+     ]
+ 
+ }

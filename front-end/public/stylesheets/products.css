@@ -1,0 +1,59 @@
+#frame {
+    border: 1px solid #e6d4d4;
+    border-radius: 4px;
+    padding-top: 40px;
+}
+
+.line-with-text {
+    top: 0;
+    left: 0;
+    border-top: 30px solid black;
+    text-align: left;
+}
+
+.line-with-text .text {
+    color: white;
+    padding: 0 12px;
+    position: relative;
+    top: -30px;
+    font-size: 15px;
+}
+.text {
+    font-family: Consolas;
+    color: 212529;
+}
+
+#add {
+    width: 100px;
+}
+
+#search {
+    width: 100px;
+}
+#clear {
+    width: 100px;
+}
+
+.resize { 
+width: 50px;
+height: 50px;
+object-fit: cover;
+display: block;
+margin: 0 auto;
+}
+
+table tr:nth-child(even) td{
+    background-color:#A9A9A9;
+}
+
+#products {
+font-size: 15px;;
+}
+
+.size-fill-page {
+min-width: 98%
+}
+
+#topbutton {
+min-width: 98%
+}

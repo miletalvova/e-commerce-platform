@@ -1,0 +1,13 @@
+{
+    "records": [ 
+         {
+             "id": 1,
+             "query": "INSERT INTO Roles (role) VALUES ('Admin')"
+         },
+         {
+             "id": 2,
+             "query": "INSERT INTO Roles (role) VALUES ('User')"
+         }
+     ]
+ 
+ }
