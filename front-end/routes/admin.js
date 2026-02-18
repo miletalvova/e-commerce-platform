@@ -1,8 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var axios = require('axios');
-var jwt = require('jsonwebtoken');
-
 router.get('/login', (req, res) => {
   res.render('login');
 });

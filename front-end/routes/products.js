@@ -10,7 +10,6 @@ router.get('/', isAuth, async function(req, res) {
 
     const response = await axios.get('http://localhost:3000/brands', { headers: { Authorization: `Bearer ${req.session.token}` }});
     const brands = response.data.data.brands;
-    /* console.log(response.data.data.brands); */
 
     const dataCategories = await axios.get('http://localhost:3000/categories', { headers: { Authorization: `Bearer ${req.session.token}` }});
     const categories = dataCategories.data.data.categories;
